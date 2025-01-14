@@ -1,4 +1,4 @@
-package problems
+package problems.programmers
 
 import java.util.*
 
