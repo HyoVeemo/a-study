@@ -1,13 +1,8 @@
 class `ReverseString` {
     fun reverseString(s: CharArray): Unit {
-        println(s.size)
         for (i in 0 until s.size / 2) {
-            println(i)
-            val temp = s[i]
-            s[i] = s[s.size - 1 - i]
-            s[s.size - 1 - i] = temp
+            s[i] = s[s.size - 1 - i].also { s[s.size - 1 - i] = s[i] }
         }
-        println(s)
     }
 }
 
