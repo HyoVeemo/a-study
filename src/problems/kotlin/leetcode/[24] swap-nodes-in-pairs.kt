@@ -1,4 +1,4 @@
-
+class ListNode(var `val`: Int) { var next: ListNode? = null }
 /**
  * Example:
  * var li = ListNode(5)
@@ -8,7 +8,7 @@
  *     var next: ListNode? = null
  * }
  */
-class Solution {
+class Solution24 {
 
     fun recur(parent: ListNode){
         val first = parent.next

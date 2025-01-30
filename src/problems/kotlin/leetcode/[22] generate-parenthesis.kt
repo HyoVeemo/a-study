@@ -9,7 +9,7 @@
 // (((   (()) (()(
 //
 
-class Solution {
+class Solution22 {
     fun recursive (target: Int, leftCount: Int, rightCount: Int, vals: String): List<String>{
         val list = mutableListOf<String>()
         if(leftCount == target && leftCount-rightCount == 0){

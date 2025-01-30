@@ -8,7 +8,7 @@
  *     var right: TreeNode? = null
  * }
  */
-class Solution {
+class Solution222 {
     fun recur(node: TreeNode): Int{
         var count: Int = 1
         if(node.left != null){
